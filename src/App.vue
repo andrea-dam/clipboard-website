@@ -4,7 +4,7 @@
         id="hero"
         class="bg-hero-pattern-mobile bg-contain bg-no-repeat md:bg-hero-pattern-desktop">
         <div class="section-container mb-40 px-10 pt-16">
-            <img src="images/logo.svg" class="mx-auto my-16" alt="" />
+            <img src="/images/logo.svg" class="mx-auto my-16" alt="" />
             <h3>A history of everything you copy</h3>
             <p class="section-content mb-10">
                 Clipboard allows you to track and organize everything you copy.
@@ -154,7 +154,7 @@
         <div class="section-container">
             <div class="flex flex-col items-center justify-between md:flex-row">
                 <!-- Image -->
-                <img src="images/logo.svg" alt="" class="scale-50" />
+                <img src="/images/logo.svg" alt="" class="scale-50" />
                 <!-- Container for Menus & Social -->
                 <div
                     class="mb-10 flex flex-1 flex-col items-center justify-between space-y-6 text-grayishBlue md:mb-0 md:flex-row md:space-y-0">
@@ -204,19 +204,19 @@
                     <div class="flex w-32 justify-between py-1">
                         <a href="#"
                             ><img
-                                src="images/icon-facebook.svg"
+                                src="/images/icon-facebook.svg"
                                 alt=""
                                 class="ficon duration-200"
                         /></a>
                         <a href="#"
                             ><img
-                                src="images/icon-twitter.svg"
+                                src="/images/icon-twitter.svg"
                                 alt=""
                                 class="ficon duration-200"
                         /></a>
                         <a href="#"
                             ><img
-                                src="images/icon-instagram.svg"
+                                src="/images/icon-instagram.svg"
                                 alt=""
                                 class="ficon duration-200"
                         /></a>
