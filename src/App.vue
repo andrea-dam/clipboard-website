@@ -147,7 +147,18 @@
                 clipboard.
             </p>
             <!-- Button Container -->
-            <div class="button-container"></div>
+            <div class="button-container mt-12">
+                <a
+                    href=""
+                    class="rounded-full bg-strongCyan p-4 px-8 shadow-lg duration-200 hover:opacity-80">
+                    Download for iOS
+                </a>
+                <a
+                    href=""
+                    class="rounded-full bg-lightBlue p-4 px-8 shadow-lg duration-200 hover:opacity-80">
+                    Download for Mac
+                </a>
+            </div>
         </div>
     </section>
     <footer class="bg-gray-50">
