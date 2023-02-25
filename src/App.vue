@@ -12,16 +12,12 @@
             </p>
             <!-- Button Container -->
             <div class="button-container">
-                <a
-                    href=""
-                    class="rounded-full bg-strongCyan p-4 px-8 shadow-lg duration-200 hover:opacity-80">
+                <base-button class="bg-strongCyan">
                     Download for iOS
-                </a>
-                <a
-                    href=""
-                    class="rounded-full bg-lightBlue p-4 px-8 shadow-lg duration-200 hover:opacity-80">
+                </base-button>
+                <base-button class="bg-lightBlue">
                     Download for Mac
-                </a>
+                </base-button>
             </div>
         </div>
     </section>
@@ -49,29 +45,28 @@
                 <div
                     class="mt-16 mb-24 flex flex-col space-y-12 text-xl md:mb-60 md:w-1/2 md:pl-16 md:text-left">
                     <!-- Item 1 -->
-                    <div>
-                        <h5>Quick Search</h5>
-                        <p class="max-w-md text-grayishBlue">
+                    <base-item>
+                        <template #title>Quick Search</template>
+                        <template #content>
                             Easily search your snippets by content, category,
                             web address, application and more.
-                        </p>
-                    </div>
+                        </template>
+                    </base-item>
                     <!-- Item 2 -->
-                    <div>
-                        <h5>iCloud Sync</h5>
-                        <p class="max-w-md text-grayishBlue">
+                    <base-item>
+                        <template #title>iCloud Sync</template>
+                        <template #content>
                             Instantly saves and syncs snippets across all your
                             devices.
-                        </p>
-                    </div>
-                    <!-- Item 3 -->
-                    <div>
-                        <h5>Complete History</h5>
-                        <p class="max-w-md text-grayishBlue">
+                        </template>
+                    </base-item>
+                    <base-item>
+                        <template #title>Complete History</template>
+                        <template #content>
                             Retrieve any snippets from the first moment you
                             started using the app.
-                        </p>
-                    </div>
+                        </template>
+                    </base-item>
                 </div>
             </div>
         </div>
@@ -237,7 +232,3 @@
         </div>
     </footer>
 </template>
-
-<script setup></script>
-
-<style scoped></style>
